@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./lib/css/bootstrap.css"/>
     <!-- endbower -->
     <!-- inject:css -->
+    <link rel="stylesheet" href="build/css/lightbox.css"/>
     <link rel="stylesheet" href="build/css/style.css"/>
     <!-- endinject -->
 </head>
@@ -18,7 +19,7 @@
         <div class="container">
             <div class="row">
                 <img src="./img/logo.png" alt="logo" class="center-block marginTop-115">
-                <a href="http://www.huodongxing.com/event/8285037899500" class="btn btn-join">立即报名</a>
+                <a href="http://www.huodongxing.com/event/8285037899500" class="btn btn-join" disabled="disabled">活动已结束</a>
             </div>
         </div>
     </header>
@@ -44,7 +45,7 @@
                             <li><a href="#schedule">日程安排</a></li>
                             <li><a href="#address">会场地址</a></li>
                             <li><a href="#union">联合举办</a></li>
-                            <li><a href="#support">赞助商</a></li>
+                            <a href="detail.html" class="btn btn-join" style="margin-left:60px; float:left;margin-top:18px;">精彩回顾</a>
                         </ul>
                     </div>
                 </div>
@@ -67,7 +68,7 @@
                 <div class="center-block width-938">
                     <div class="col-md-4 col-sm-6 thumbnails">
                         <img src="./img/lm.png" alt="thumbnails" class="img-circle center-block marginBot-18">
-                        <h4 class="text-center">刘明</h4>
+                        <h4 class="text-center">刘明 <a href="http://7qna7i.com1.z0.glb.clouddn.com/Ubuntu Kylin 1504 介绍-LM20150606南京.pdf">ppt</a></h4>
                         <p class="center-block text-center">清华大学博士，</p>
                         <p class="center-block text-center">优麒麟项目社区负责人</p>
                     </div>
@@ -75,7 +76,7 @@
                 <div class="center-block width-938">
                     <div class="col-md-4 col-sm-6 thumbnails">
                         <img src="./img/lj.png" alt="thumbnails" class="img-circle center-block marginBot-18">
-                        <h4 class="text-center">李剑峰</h4>
+                        <h4 class="text-center">李剑峰 <a href="http://7qna7i.com1.z0.glb.clouddn.com/加封面-Unity8 南京.ppt">ppt</a></h4>
                         <p class="center-block text-center">优麒麟开发团队核心</p>
                         <p class="center-block text-center">成员，主要负责Unity8开发。</p>
                     </div>
@@ -90,7 +91,7 @@
                 <div class="center-block width-938">
                     <div class="col-md-4 col-sm-6 thumbnails">
                         <img src="./img/xxk.png" alt="thumbnails" class="img-circle center-block marginBot-18">
-                        <h4 class="text-center">徐新坤</h4>
+                        <h4 class="text-center">徐新坤<a href="http://7qna7i.com1.z0.glb.clouddn.com/Dockefile和docker构建流程 2.pdf">ppt</a></h4>
                         <p class="center-block text-center">河海计算机系硕士</p>
                         <p class="center-block text-center">云平台-软件开发工程师</p>
                     </div>
@@ -98,7 +99,7 @@
                 <div class="center-block width-938">
                     <div class="col-md-4 col-sm-6 thumbnails">
                         <img src="./img/hls.png" alt="thumbnails" class="img-circle center-block marginBot-18">
-                        <h4 class="text-center">何李石</h4>
+                        <h4 class="text-center">何李石<a href="http://7qna7i.com1.z0.glb.clouddn.com/何李石-通往架构师之路.pdf">ppt</a></h4>
                         <p class="center-block text-center">《Go 语言程序设计》译者</p>
                         <p class="center-block text-center">七牛云存储早期工程师、技术专家、布道师。</p>
                     </div>
@@ -389,6 +390,7 @@
     <script src="./lib/js/jquery.js"></script>
     <script src="./lib/js/bootstrap.js"></script>
     <script src="./lib/js/jquery.sticky.js"></script>
+    <script src="./lib/js/lightbox.js"></script>
     <!-- endbower -->
     <!-- inject:js -->
     <script src="build/js/my.js"></script>
