@@ -1,0 +1,20 @@
+{
+  "name": "party",
+  "version": "0.0.0",
+  "authors": [
+    "luxiaojijan <luhuijian2013@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4",
+    "sticky": "~1.0.1",
+    "lightbox2": "~2.7.1"
+  }
+}
